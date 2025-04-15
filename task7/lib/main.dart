@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(ImageGridApp());
 
 class ImageGridApp extends StatelessWidget {
+  const ImageGridApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,6 +20,8 @@ class ImageGridScreen extends StatelessWidget {
     12,
     (index) => 'https://picsum.photos/200/300?random=${index + 1}',
   );
+
+  ImageGridScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

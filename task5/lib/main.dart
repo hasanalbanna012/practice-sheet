@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyTwoScreenApp());
 
 class MyTwoScreenApp extends StatelessWidget {
+  const MyTwoScreenApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +16,8 @@ class MyTwoScreenApp extends StatelessWidget {
 }
 
 class FirstScreen extends StatelessWidget {
+  const FirstScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,6 +38,8 @@ class FirstScreen extends StatelessWidget {
 }
 
 class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

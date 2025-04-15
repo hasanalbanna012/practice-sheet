@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(TextStyleDemoApp());
 
 class TextStyleDemoApp extends StatelessWidget {
+  const TextStyleDemoApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

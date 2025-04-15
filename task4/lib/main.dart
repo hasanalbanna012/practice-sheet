@@ -13,7 +13,7 @@ class TextStyleDemoApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Text Styling Example'),
         ),
-        body: Padding(
+        body: Padding(//new try
           padding: EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,

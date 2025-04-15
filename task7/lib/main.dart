@@ -30,7 +30,7 @@ class ImageGridScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: GridView.builder(
-          itemCount: imageUrls.length,
+          itemCount: imageUrls.length,//new try
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: MediaQuery.of(context).size.width > 600 ? 4 : 2, 
             crossAxisSpacing: 10,

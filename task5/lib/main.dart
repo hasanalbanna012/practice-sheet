@@ -39,7 +39,7 @@ class FirstScreen extends StatelessWidget {
 
 class SecondScreen extends StatelessWidget {
   const SecondScreen({super.key});
-
+//new try
   @override
   Widget build(BuildContext context) {
     return Scaffold(

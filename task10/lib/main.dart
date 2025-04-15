@@ -120,5 +120,5 @@ class ProfileScreen extends StatelessWidget {
         ],
       ),
     );
-  }
+  }//new try
 }

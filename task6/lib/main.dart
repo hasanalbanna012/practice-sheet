@@ -60,7 +60,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     return 'Username is required';
                   }
                   return null;
-                },
+                },//new try
               ),
               SizedBox(height: 15),
               TextFormField(

@@ -93,7 +93,7 @@ class _AnimatedCardState extends State<AnimatedCard> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Tapped on ${widget.title}')),
         );
-      },
+      },//new try
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
         margin: const EdgeInsets.symmetric(vertical: 10),

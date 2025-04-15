@@ -38,11 +38,11 @@ class ImageGridScreen extends StatelessWidget {
               child: Image.network(
                 imageUrls[index],
                 fit: BoxFit.cover,
-                is
               ),
             );
           },
         ),
+        
       ),
     );
   }
